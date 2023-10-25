@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlightsValidation(failed)">
+    <classes>
+      <class name="expedia.testcases.FlightsValidation">
+        <methods>
+          <include name="validatingFlight"/>
+          <include name="teardown"/>
+          <include name="launchingApp"/>
+          <include name="validatingoneway"/>
+        </methods>
+      </class> <!-- expedia.testcases.FlightsValidation -->
+    </classes>
+  </test> <!-- FlightsValidation(failed) -->
+  <test thread-count="5" name="CheckingStays(failed)">
+    <classes>
+      <class name="expedia.testcases.CheckingStays">
+        <methods>
+          <include name="teardown"/>
+          <include name="travelersDropDown"/>
+          <include name="launchingApp"/>
+          <include name="spotanddate"/>
+        </methods>
+      </class> <!-- expedia.testcases.CheckingStays -->
+    </classes>
+  </test> <!-- CheckingStays(failed) -->
+  <test thread-count="5" name="SearchButtonValidation(failed)">
+    <classes>
+      <class name="expedia.testcases.SearchButtonValidaton">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchButton"/>
+          <include name="launchingApp"/>
+        </methods>
+      </class> <!-- expedia.testcases.SearchButtonValidaton -->
+    </classes>
+  </test> <!-- SearchButtonValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
